@@ -1,0 +1,18 @@
+# Ignore build artifacts and IDE files
+
+# Java / Spring Boot
+backend/target/
+*.log
+*.class
+*.jar
+*.war
+
+# Node / React
+frontend/node_modules/
+frontend/build/
+
+# OS files
+.DS_Store
+*.iml
+.vscode/
+.idea/
